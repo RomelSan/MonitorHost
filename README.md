@@ -14,7 +14,7 @@ For python 3 version install colorama type this on shell:
 Download it    
 Check variable options inside "monitorHost.sh": add servers, set alert modes on or off    
 For Python 3 version just add the servers to the file "servers.txt"    
-You can add the bash version to a Cron     
+You can add the bash version to a Cron:     
 ```
 For Example:
 
@@ -26,7 +26,7 @@ $ crontab -e
 
 Append the following cronjob entry:
 # Monitor remote host every 10 minutes using monitorHost
-10 * * * * /home/vivek/bin/monitorHost.sh
+10 * * * * /home/romel/bin/monitorHost.sh
 ```
 
 ### Built using
