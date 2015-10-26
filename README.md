@@ -15,7 +15,8 @@ Download it
 Check variable options inside "monitorHost.sh": add servers, set alert modes on or off    
 For Python 3 version just add the servers to the file "servers.txt"    
 You can add the bash version to a Cron     
-`For Example:
+```
+For Example:
 
 In order to run this script every 10 minutes (or as per your requirements), you need to install a script as cron job:
 $ chmod +x /path/to/monitorHost.sh
@@ -25,7 +26,8 @@ $ crontab -e
 
 Append the following cronjob entry:
 # Monitor remote host every 10 minutes using monitorHost
-10 * * * * /home/vivek/bin/monitorHost.sh`
+10 * * * * /home/vivek/bin/monitorHost.sh
+```
 
 ### Built using
 * Python 3.5 - [Link](https://www.python.org/)
